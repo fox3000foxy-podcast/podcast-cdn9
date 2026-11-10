@@ -1,7 +1,7 @@
 name: deploy-shard-from-private-src
 
 # Shard CDN : publie ~900 Mo d'audio sur GitHub Pages SANS les commiter.
-# Les .m4a sont checkout depuis le repo privé fox3000foxy/podcast-src
+# Les .m4a sont checkout depuis le repo privé fox3000foxy-podcast/podcast-src
 # (sparse, shard N uniquement) dans le workspace éphémère du runner,
 # assemblés dans site/files/, puis déployés via l'artifact github-pages.
 # Aucun .m4a n'est jamais commité sur ce repo public.
